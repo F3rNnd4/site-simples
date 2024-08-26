@@ -44,14 +44,50 @@ p {
     padding: 50px;
     align-items: center;
 }
-hr {
-    background-color: #E56D22;
-}
-akaashi-part {
-    margin: 20px;
+/* AKAASHI */
+.akaashi-part h2 {
+    color: white;
+    margin: 0;
     padding: 20px;
-    background-color: black;
 }
-.akaashi-part img{
-    width: 300px;
+.akaashi-part img {
+    width: 500px;
+    padding-left: 400px;
+}
+.akaashi-part strong {
+    color: goldenrod;
+}
+
+/* KAGEYAMA */
+.kageyama-part h2 {
+    color: #292a44;
+    margin: 0;
+    padding: 20px;
+}
+.kageyama-part img {
+    width: 500px;
+    padding-left: 400px;
+}
+.kageyama-part p{
+    color: #E56D22;
+}
+.kageyama-part strong {
+    color: #292a44;
+}
+
+/* KENMA */
+.kenma-part h2 {
+    color: #DFC276;
+    margin: 0;
+    padding: 20px;
+}
+.kenma-part img {
+    width: 500px;
+    padding-left: 400px;
+}
+.kenma-part p{
+    color: #DFC276;
+}
+.kenma-part strong {
+    color: #423C35;
 }

@@ -49,12 +49,12 @@ p {
 .dev img {
     width: 250px;
     height: 250px;
-    margin-left: 500px;
+    margin-left: 800px;
     padding: 20px;
     border-radius: 50%;
 }
-.minisetters img {
+.littlesetters img {
     width: 300px;
     height: auto;
-    margin-left: 500px;
+    padding-left: 250px;
 }

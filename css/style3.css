@@ -36,7 +36,7 @@ h1, h3 {
 } 
 img {
     width: 300px;
-    margin-left: 505px;
+    margin-left: 800px;
 }
 form {
     max-width: 600px;
@@ -52,11 +52,10 @@ form legend {
     color: #E56D22;
 }
 form label {
+    display: block;
     margin-top: 5px;
-    margin-bottom: 5px;
     color: white;
     font-weight: 400;
-    margin-left: 20px;
 }
 form button {
     background-color: #E56D22;

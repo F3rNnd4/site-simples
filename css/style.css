@@ -11,6 +11,8 @@ p {
     font-weight: 100;
     text-align: center;
 }
+
+
 .menu-horizontal {
     background-color: #E56D22;
     overflow: hidden;
@@ -38,55 +40,73 @@ p {
 .menu-horizontal a:hover {
     background-color: #292a44;
 }
-.top3 img {
-    width: 800px;
-    margin-left: 200px;
-    padding: 50px;
-    align-items: center;
+
+.top3{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
 }
-/* AKAASHI */
+.top3 img {   
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+}
+
+
+/*--------------- AKAASHI ---------------*/
 .akaashi-part h2 {
     color: white;
     margin: 0;
     padding: 20px;
 }
 .akaashi-part img {
-    width: 500px;
-    padding-left: 400px;
+    width: 800px;
+    align-items: center;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 1);
+    margin-left: 30%;
+}
+.akaashi-part p {
+    padding: 20px;
 }
 .akaashi-part strong {
     color: goldenrod;
 }
 
-/* KAGEYAMA */
+
+/*--------------- KAGEYAMA --------------- */
 .kageyama-part h2 {
     color: #292a44;
     margin: 0;
     padding: 20px;
 }
 .kageyama-part img {
-    width: 500px;
-    padding-left: 400px;
+    width: 800px;
+    align-items: center;
+    box-shadow:  0 0 5px rgba(229, 109, 34, 1);
+    margin-left: 30%;
 }
 .kageyama-part p{
     color: #E56D22;
+    padding: 20px;
 }
 .kageyama-part strong {
     color: #292a44;
 }
 
-/* KENMA */
+
+/*--------------- KENMA ---------------*/
 .kenma-part h2 {
     color: #DFC276;
     margin: 0;
     padding: 20px;
 }
 .kenma-part img {
-    width: 500px;
-    padding-left: 400px;
+    width: 800px;
+    align-items: center;
+    box-shadow:  0 0 5px rgba(223, 194, 118, 1);
+    margin-left: 30%;
 }
 .kenma-part p{
     color: #DFC276;
+    padding: 20px;
 }
 .kenma-part strong {
     color: #423C35;

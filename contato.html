@@ -1,35 +1,46 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
     <link rel="stylesheet" href="css/contato.css">
 </head>
+
 <body>
     <h1>Contato para mensagens!</h1>
-        <div class="menu-horizontal">
-            <ul>
-                <li><a href="index.html">Início</a></li>
-                <li><a href="sobre.html">Sobre</a></li>
-            </ul>
-        </div>
-        <h3>Preencha por completo!</h3>
-        <img src="img/kenmaa.png" alt="Kenma com as mãoszinhas no bolso">
+    <div class="menu-horizontal">
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+        </ul>
+    </div>
+    <h3>Preencha por completo!</h3>
+    <img src="img/kenmaa.png" alt="Kenma com as mãoszinhas no bolso">
 
-    <form action="/submit" method="post" enctype="multipart/form-data" autocomplete="on" novalidate accept-charset="UTF-8" target="_blank">
-    <fieldset>
-        <legend>Informações necessárias</legend>
-        <label for="nome">Nome:</label>
-        <input type="text" id="nome" name="nome" placeholder="Insira o nome completo" required maxlength="100">
+    <form action="/submit" method="post" enctype="multipart/form-data" autocomplete="on" novalidate
+        accept-charset="UTF-8" target="_blank">
+        <fieldset>
+            <legend>Informações necessárias</legend>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Insira o nome completo" required maxlength="100">
 
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
 
-        <label for="mensagem">Mensagem:</label>
-        <textarea name="mensagem" id="mensagem" rows="5" placeholder="Faça seu comentário ou pergunta"></textarea>
-    </fieldset>
+            <label for="mensagem">Mensagem:</label>
+            <textarea name="mensagem" id="mensagem" rows="5" placeholder="Faça seu comentário ou pergunta"></textarea>
+        </fieldset>
 
-     <button type="submit">Enviar</button>
+        <button type="submit">Enviar</button>
+    </form>
+
+    <footer>
+        <p>Haikyuu!!<br>Site feito para a disciplina de Linguagem de Marcação<br>Curso de Desenvolvimento de
+            Sistemas<br>SENAI Valinhos<br>2024</p>
+        <p style="font-size: x-small;">Obs. Não está em ordem de quem gosto mais.</p>
+    </footer>
 </body>
+
 </html>
